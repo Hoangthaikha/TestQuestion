@@ -23,13 +23,13 @@ function averageGradesOfStudents(s) {
     students[i].grades = update;
   }
   //
-  // var newStu = students.map(function (x) {
-  //   x["avarageGrades"] = x["grades"];
+  var newStu = students.map(function (x) {
+    x["avarageGrades"] = x["grades"];
 
-  //   delete x["grades"];
+    delete x["grades"];
 
-  //   return x;
-  // });
+    return x;
+  });
 
   console.log(newStu);
   //
